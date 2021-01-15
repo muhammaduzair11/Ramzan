@@ -13,10 +13,9 @@ body {
 body {
   align-items: center;
   background-color: #ffd54f;
-  background: url(/wp1832079-ramadan-wallpapers.jpg);
+  background: url(https://static.westernunion-microsites.com/blog/uploads/2016/06/Ramadan_01.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background: transparent/9;
   display: flex;
   background-position: center;
   font-family: -apple-system,
@@ -29,11 +28,14 @@ body {
     "Helvetica Neue",
     sans-serif;
 }
-
+#headline{
+  font-weight: 900; 
+}
 .container {
-  color: #000;
+  color: #0f0f0f;
   margin: 0 auto;
   text-align: center;
+  font-size: 1em;
 }
 
 h1 {
@@ -48,6 +50,7 @@ li {
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 li span {

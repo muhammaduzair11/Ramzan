@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let birthday = "Apr 13, 2021 07:00:00",
+  let birthday = "Apr 12, 2021 24:00:00",
       countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
 
@@ -31,3 +31,4 @@
         //seconds
       }, 0)
   }());
+  c
